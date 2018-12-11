@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Compare</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">BitCoin Predictor</a>
+    </div>
+    <ul class="nav navbar-nav">
+      
+      <li><a href="http://127.0.0.1:5000/">Home</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="container">
+  <div class="jumbotron">
+    <center>
+    <h1>BITCOIN PRICE PREDICTION</h1>
+    <h2>Actual Price vs Predicted Price </h2>
+    <h5>The below data compares the actual and predicted closing price of Bitcoin for last three days</h5>
+      </center>
+  </div>
+</div>
+<div class="container">
+  <div class="jumbotron">
+
+<table class="table table-hover">
+  <thead>
+    <tr>
+       <th scope="col">Sr.No.</th>
+      <th scope="col">Date</th>
+      <th scope="col">Predicted Price (In Dollars)</th>
+      <th scope="col">Actual Price (In Dollars)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>{{dates[0]}}</td>
+      <td>{{predict[0]}}</td>
+      <td>{{actual[0]}}</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>{{dates[1]}}</td>
+      <td>{{predict[1]}}</td>
+      <td>{{actual[1]}}</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>{{dates[2]}}</td>
+      <td>{{predict[2]}}</td>
+      <td>{{actual[2]}}</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+<div class="container">
+  <div class="jumbotron">
+  <center>  Developed By Minor Project Group 1<center>
+  </div>
+
+</body>
+</html>

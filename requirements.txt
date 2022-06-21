@@ -28,7 +28,7 @@ lxml==4.2.1
 Markdown==2.6.11
 MarkupSafe==1.0
 mccabe==0.6.1
-numpy==1.14.2
+numpy==1.22.0
 pandas==0.22.0
 protobuf==3.5.2.post1
 pylint==1.8.4
